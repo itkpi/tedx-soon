@@ -1,0 +1,200 @@
+html { 
+  background: url(../pic/background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+
+body{
+	padding: 50px;
+	margin: 0 auto;
+}
+.logo, .logo img{
+	max-height: 120px;
+}
+.header__top{
+}
+.date{
+	font-size: 55px;
+	/*padding: 55px 0 33px 0;*/
+	margin: 0;
+	font-weight: 600;
+	text-align: center;
+}
+.place{
+	padding: 0px;
+	margin: 0px;
+	text-align: center; 
+	font-weight: 300;
+	font-size: 18px;
+
+}
+.soon{
+	text-align: center;
+}
+.soon h2{
+	font-size: 35px;
+	margin-bottom: 25px;
+}
+.buy{
+	color: #303030;
+	text-decoration: none;
+	background-color: white;
+	padding:0.5em 1em;
+	font-size: 46px;
+	display: block;
+	margin:0 auto;
+}
+
+@media screen and (max-width: 320px){
+  body{
+  	padding: 20px!important;
+  }
+  .date{
+  	padding: 10px 0 20px 0;
+  }
+  .soon h2{
+  	font-size: 24px;
+  	padding: 30px 0;
+  }
+  .logo img{
+  	max-height: 50px;
+  	margin: 0 auto;
+  }
+  .buy{
+  	font-size: 18px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 480px) and (orientation: landscape){
+	.date{
+		padding: 15px 0 5px 0!important;
+	}
+	.soon h2{
+		padding: 5px!important;
+	}
+}
+
+@media screen and (max-width: 480px) and (max-device-width: 480px){
+  body{
+  	padding: 20px!important;
+  }
+  .date{
+  	padding: 10px 0 20px 0;
+  }
+  .soon h2{
+  	font-size: 24px;
+  	padding: 30px 0;
+  }
+  .logo img{
+  	max-height: 50px;
+  	margin: 0 auto;
+  }
+  .buy{
+  	font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 640px) and (orientation: landscape){
+	.date{
+		padding: 15px 0 5px 0!important;
+	}
+	.soon h2{
+		padding: 5px!important;
+	}
+}
+
+
+@media screen and (min-width: 321px) and (max-width: 360px){
+  .body{
+  	padding: 20px!important;
+  }
+  .date{
+  	padding: 70px 0 10px 0;
+  }
+  .soon h2{
+  	font-size: 1.45em;
+  	padding: 60px 0;
+  }
+  .place{
+  	font-size: 1em;
+  }
+  .logo img{
+  	max-height: 50px;
+  }
+  .buy{
+  	font-size: 1.5em;
+  }
+}
+
+
+
+@media screen and (min-width: 361px) and (max-width: 1024px){
+  body{
+  	padding: 40px!important;
+  }
+  .logo img{
+  	min-height: 70px;
+  }
+  .date{
+  	padding: 140px 0 20px 0;
+  	font-size: 4em;
+  }
+  .place{font-size: 2em}
+
+  .soon h2{
+  	font-size: 2em;
+  	padding: 140px 0;
+  }
+  .logo img{
+  	max-height: 50px;
+  	margin: 0 auto;
+  }
+  .buy{
+  	font-size: 1.8em;
+  }
+}
+
+@media screen and (max-width: 1024px) and (orientation: landscape){
+	.date{
+		padding: 100px 0 20px 0!important;
+	}
+	.soon h2{
+		padding: 70px!important;
+	}
+}
+@media screen and (min-width: 800px) and (max-width: 1280px){
+  .date{
+  	padding: 200px 0 20px 0;
+  	
+  }
+  .soon h2{
+  	padding: 250px 0;
+  }  
+}
+
+@media screen and (min-width: 1280px){
+  .date{
+  	padding: 30px 0 10px 0;
+  	text-align: left;
+  }
+  .place{
+  	text-align: left;
+  	max-width: 320px;
+  }
+  .soon h2{
+  	padding: 10px 0;
+  }
+  .buy{
+  	padding: 0.5em 1em;
+  	max-width: 400px;
+  	font-size: 38px;
+  }
+}
