@@ -18,7 +18,13 @@
   "dependencies": {
     "imagemin-jpegtran": "^4.1.0",
     "imagemin-optipng": "^4.2.0",
-    "imagemin-pngquant": "^4.0.0",
-    "redis": "^0.12.1"
-  }
+    "imagemin-pngquant": "^5.1.0",
+    "redis": "^0.12.1",
+    "snyk": "^1.85.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
